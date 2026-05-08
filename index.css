@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+
+    background-color:rgb(189, 193, 178);
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.buttongroup{
+    color: white;
+    font-size: larger;
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+button{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    border: none;
+}
+h1{
+    color: rgb(18, 17, 17);
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+
+}
